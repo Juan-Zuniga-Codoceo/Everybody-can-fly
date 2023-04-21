@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.nav__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.nav__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav__list__item {
+  margin-right: 1rem;
+}
+.nav__list__item__link {
+  text-decoration: none;
+  color: #333;
+}
+.nav__list__item__link:hover {
+  color: #666;
+}
+
+/*# sourceMappingURL=style.css.map */
